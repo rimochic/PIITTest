@@ -13,15 +13,15 @@ public class Calculator {
         String result =(doAddition()>=21) ? "The Total is" + " " + doAddition() : "Hello World";
         System.out.println(result);
 
-        // if (doAddition() >= 23) {
-        //    System.out.println("The total is" + " " + doAddition());
-     //   }
-      //  else if (doSubtraction()<14){
-     //       System.out.println("There is an error");
-    //    }
-     //   else {
-    //        System.out.println("Hello");
-    //    }
+         if (doAddition() >= 23) {
+            System.out.println("The total is" + " " + doAddition());
+        }
+        else if (doSubtraction()<14){
+            System.out.println("There is an error");
+        }
+        else {
+            System.out.println("Hello");
+        }
     }
 
     static int doAddition(){
